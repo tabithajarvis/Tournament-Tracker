@@ -24,9 +24,7 @@ To run this project on your own database server, you will need Vagrant and a vir
 If you are adding functionality to the [tournament.py](tournament/tournament.py) file, please be sure to write test cases in [tournament_test.py](tournament/tournament_test.py) to thoroughly test the additions.
 
 Some useful commands to know:
-- `drop table tableName`: deletes the table named tableName.  If deleting all tables, you must delete the tables that reference other tables first. (Delete **matches** before deleting **players**).
-
-- `drop from tableName`: deletes all row entries from a table, but keeps the table structure and data types.
+- `drop table table_name`: deletes the table named table_name.  If deleting all tables, you must delete the tables that reference other tables first. (Delete **matches** before deleting **players**).
 
 - `\i tournament.sql`: re-initializes the tournament database based on the [tournament.sql](tournament/tournament.sql) file.
 
